@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro hora, ano
+		inteiro minuto, decada
+		inteiro segundos, idade
+		real chocolate
+
+		escreva("Diga algum(s) ano(s) e eu lhe direi a quantidade de horas que ele possui: ")
+		leia(ano)
+			escreva("Diga alguma(s) década(s): ")
+			leia(decada)
+				escreva("Diga sua idade: ")
+				leia(idade)
+					escreva("Quantos chocolates você pretende comer na vida? ")
+					leia(chocolate)
+
+		hora = ano * 8766
+		minuto = decada * 5256000
+		segundos = idade * 31536000
+
+		escreva("\nA quantidade de horas que ", ano, " ano(s) possui é: ", hora, "\n")
+			escreva("A quantidade de minutos que ", decada, " década(s) possui é: ", minuto, "\n")
+				escreva("A quantidade de segundos que sua idade","(", idade, " anos)", " possui é: ", segundos, "\n")
+					escreva("Você pretende comer ", chocolate, " chocolates na sua vida! \n")
+						escreva("Se sua idade em segundos é 977 milhões, você possui 30 anos!")
+	}
+}
