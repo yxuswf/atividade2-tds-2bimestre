@@ -1,0 +1,29 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro comprimentopedaco = 45
+
+        inteiro comprimentoTabua3m = 300
+        inteiro comprimentoTabua4m = 400
+        inteiro comprimentoTabua5m = 500
+
+        	inteiro quantidadepedacos3m = comprimentoTabua3m / comprimentopedaco
+        	inteiro sobra3m = comprimentoTabua3m % comprimentopedaco
+          escreva("Tábua de 3 metros:\n")
+        	escreva("Quantidade de pedaços: ", quantidadepedacos3m, "\n")
+        	escreva("Sobra: ", sobra3m, " cm\n")
+
+       	  	inteiro quantidadepedacos4m = comprimentoTabua4m / comprimentopedaco
+        		inteiro sobra4m = comprimentoTabua4m % comprimentopedaco
+            escreva("\nTábua de 4 metros:\n")
+        		escreva("Quantidade de pedaços: ", quantidadepedacos4m, "\n")
+        		escreva("Sobra: ", sobra4m, " cm\n")
+
+        			inteiro quantidadepedacos5m = comprimentoTabua5m / comprimentopedaco
+        			inteiro sobra5m = comprimentoTabua5m % comprimentopedaco
+        			escreva("\nTábua de 5 metros:\n")
+        			escreva("Quantidade de pedaços: ", quantidadepedacos5m, "\n")
+        			escreva("Sobra: ", sobra5m, " cm\n")
+    }
+}
