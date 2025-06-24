@@ -1,0 +1,15 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro tempototal = 100
+        inteiro numerodisciplinas = 6
+        
+        inteiro tempoPorDisciplina = tempototal / numerodisciplinas
+        
+        inteiro temporestante = tempototal % numerodisciplinas
+        
+        escreva("Tempo dedicado por disciplina: ", tempoPorDisciplina, " minutos\n")
+        escreva("Tempo livre: ", temporestante, " minutos\n")
+    }
+}
