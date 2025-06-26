@@ -1,0 +1,19 @@
+programa
+{
+    funcao inicio()
+    {
+        real tamanhoarquivoMB, velocidadeMbps, tempodownload
+
+        escreva("Diga o tamanho do arquivo para download (em MB): ")
+        leia(tamanhoarquivoMB)
+
+        escreva("Agora diga a velocidade da sua internet (em Mbps): ")
+        leia(velocidadeMbps)
+
+        velocidadeMbps = velocidadeMbps / 8.0
+
+        tempodownload = tamanhoarquivoMB / velocidadeMbps
+
+        escreva("Tempo aproximado de download: ", tempodownload, " minutos")
+    }
+}
