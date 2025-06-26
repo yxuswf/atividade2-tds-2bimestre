@@ -1,0 +1,22 @@
+programa
+{
+    funcao inicio()
+    {
+        real areaMetrosQuadrados
+        real litrosNecessarios
+        inteiro quantidadeLatas
+        real precoTotal
+
+        escreva("Digite o tamanho da área a ser pintada (em metros quadrados): ")
+        leia(areaMetrosQuadrados)
+
+        litrosNecessarios = areaMetrosQuadrados / 3.0
+
+        quantidadeLatas = litrosNecessarios / 18.0
+
+        precoTotal = quantidadeLatas * 480.00
+
+        escreva("Quantidade de latas a serem compradas: ", quantidadeLatas)
+        escreva("Preço total: R$ ", precoTotal)
+    }
+}
