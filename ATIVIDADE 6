@@ -1,0 +1,17 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro minutospordia = 5
+        inteiro diasporsemana = 6
+        inteiro semanasporano = 52
+        inteiro tempototalminutos
+        inteiro tempototalhoras
+
+        tempototalminutos = minutospordia * diasporsemana * semanasporano
+
+        tempototalhoras = tempototalminutos / 60
+
+        escreva("O tempo total de uma pessoa dedicado a um livro é: ", tempototalhoras, " horas por ano!")
+    }
+}
