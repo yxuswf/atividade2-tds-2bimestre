@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+    funcao inicio()
+    {
+        real L1, L2, diagonal, radicando
+
+        radicando = 11.5 * 11.5 + 6.3 * 6.3
+        diagonal = mat.raiz(radicando, 2)
+	   escreva("Quantidade mínima de fio que o eletrecista precisa comprar: ", diagonal, " metros\n")
+
+        	escreva("Digite o lado 1 da casa (em metros): ")
+        	leia(L1)
+
+        	escreva("Digite o lado 2 da casa (em metros): ")
+        	leia(L2)
+
+       	radicando = L1 * L1 + L2 * L2
+        	diagonal = mat.raiz(radicando, 2)
+
+        	escreva("Quantidade mínima de fio a ser usada: ", diagonal, " metros\n")
+    }
+}
